@@ -13,11 +13,9 @@ public class Auth()
     {
         if (login == "login" && password == "123456")
         {
-            Console.WriteLine("Alarms deactivated. Welcome home, Marcus");
+            return "Alarms deactivated. Welcome home, Marcus";
         }
-        else
-        {
-            Console.WriteLine("Access Denied");
-        }
+        return "Access Denied";
+        
     }
 }

@@ -1,5 +1,5 @@
-﻿namespace Project_Test
-
+﻿namespace Project_Test 
+{ 
     [TestClass]
     public sealed class AuthTest
     {
