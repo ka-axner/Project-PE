@@ -1,12 +1,15 @@
 ﻿public class Auth()
 {
 
-    public bool SignIn(string login, string password)
+    public string SignIn(string login, string password)
     {
-        if (password == null || password.Length == 0)
+        
+        if (login == "login" && password == "123456")
         {
-            throw new Exception();
+            return "Alarms deactivated. Welcome home, Marcus";
         }
-        return true;
+        return "Access Denied";
     }
 }
+
+
