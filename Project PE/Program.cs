@@ -1,4 +1,12 @@
-﻿public class Auth()
+﻿public static class MainClass
+{
+    public static void Main(String[] args)
+    {
+        return;
+    }
+}
+
+public class Auth()
 {
 
     public bool SignIn(string login, string password)
